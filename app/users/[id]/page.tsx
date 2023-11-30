@@ -6,7 +6,7 @@ const IdPage = ({
     return (
         <div>
 
-            ID: {params.id}
+            User ID is {params.id}
         </div>
     )
 }

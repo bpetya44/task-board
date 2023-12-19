@@ -7,7 +7,7 @@ const TestLayout = ({
     }
 ) => {
     return (
-        <div className="bg-rose-300">
+        <div className="bg-rose-300 h-full">
             {children}
         </div>
     )

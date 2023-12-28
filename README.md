@@ -26,7 +26,19 @@ Web-based Trello like project management and collaboration tool that allows user
 
 ## Getting Started
 
-First, run the development server:
+ - First clone the repo
+
+```bash
+git clone https://github.com/bpetya44/task-board
+```
+ - Install packages
+
+```bash
+npm i
+```
+ - Set Up `.env` file, just like the `.env.example` file
+
+ - Run the development server:
 
 ```bash
 npm run dev

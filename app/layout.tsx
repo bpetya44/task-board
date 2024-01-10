@@ -16,24 +16,7 @@ export const metadata: Metadata = {
       url: '/logo.svg',
       href: '/logo.svg',
     },
-  ],
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: siteConfig.name,
-    description: siteConfig.description,
-    images: [
-      {
-        url: '/logo.svg',
-        width: 35,
-        height: 35,
-        alt: siteConfig.name,
-      },
-      
-    ],
-  },
+  ]
 }
 
 export default function RootLayout({

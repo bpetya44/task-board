@@ -5,9 +5,12 @@
 Web-based Trello like project management and collaboration tool that allows users to organize tasks and projects on customizable boards. Task-Board uses a card and board system where users can create boards for different projects and add cards to represent tasks or items within those projects. Cards can be moved between lists on the board to reflect progress or changes in status.
 
 ## Key Features
-
- - [ ] Auth 
- - [ ] Organizations / Workspaces
+ - [x] Landing page
+ - [ ] MySQL DB
+ - [ ] Prisma ORM
+ - [x] shadcnUI & TailwindCSS
+ - [x] Auth 
+ - [x] Organizations / Workspaces
  - [ ] Board creation
  - [ ] Unsplash API for random beautiful cover images
  - [ ] Activity log for entire organization
@@ -19,10 +22,7 @@ Web-based Trello like project management and collaboration tool that allows user
  - [ ] Card activity log
  - [ ] Board limit for every organization
  - [ ] Stripe subscription for each organization to unlock unlimited boards
- - [ ] Landing page
- - [ ] MySQL DB
- - [ ] Prisma ORM
- - [x] shadcnUI & TailwindCSS
+ 
 
 ## Getting Started
 
@@ -42,6 +42,7 @@ npm i
 
 ```bash
 npm run dev
+```
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

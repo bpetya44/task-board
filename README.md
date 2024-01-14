@@ -9,7 +9,7 @@ Web-based Trello like project management and collaboration tool that allows user
  - [ ] MySQL DB
  - [ ] Prisma ORM
  - [x] shadcnUI & TailwindCSS
- - [x] Auth 
+ - [x] Authentication with Clerk
  - [x] Organizations / Workspaces
  - [ ] Board creation
  - [ ] Unsplash API for random beautiful cover images

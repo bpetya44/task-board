@@ -60,11 +60,16 @@ export const Sidebar = ({
     if(!isLoadedOrg || !isLoadedOrgList || userMemberships.isLoading) {
         return (
             <>
-                <div className="flex flex-col gap-y-4">
-                    <Skeleton className="w-40 h-6" />
-                    <Skeleton className="w-40 h-6" />
-                    <Skeleton className="w-40 h-6" />
-                    <Skeleton className="w-40 h-6" />
+                <div className="flex items-center justify-between mb-2">
+                    <Skeleton className="h-10 w-[50%]"/>
+                    <Skeleton className="h-10 w-10"/>
+                    
+                </div>
+
+                <div className="space-y-2">
+                    <NavItem.Skeleton/>
+                    <NavItem.Skeleton/>
+                    <NavItem.Skeleton/>
                 </div>
             </>
         )
@@ -79,7 +84,7 @@ export const Sidebar = ({
                </span>
                <Button 
                asChild
-                variant="ghost" 
+                variant="primary" 
                 size="icon" 
                 className="ml-auto"
                 >

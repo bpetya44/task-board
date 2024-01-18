@@ -83,8 +83,8 @@ export const Sidebar = ({
 
                </span>
                <Button 
-               asChild
-                variant="primary" 
+                asChild
+                variant="ghost" 
                 size="icon" 
                 className="ml-auto"
                 >
